@@ -54,3 +54,59 @@ table, th, td {
   tr:nth-child(even) {
     background-color: #f2f2f2;
   }
+  body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+ul{	
+	top: 80%;
+	left: 50%;	
+	margin: 0;
+	padding: 20px 0; 
+	background: #fff; 
+	display: flex;
+	border-radius: 2px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.3)
+}
+  ul li{
+	list-style: none;
+	text-align: center;
+	display: block;	
+}
+ul li:last-child{
+	border-right: none;
+}
+ul li a{
+	text-decoration: none;
+	padding: 0 50px;
+	display: block;
+}
+
+ul li a .name{
+	position: relative;
+	height: 20px; 
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+ul li a .name span{
+	display: block;
+	position: relative;
+	color: #000;
+	font-size: 18px; 
+	line-height: 20px;
+	transition: 0.5s; 
+	
+}
+.icon-play {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: solid 2px blue
+    border-radius: 100px;
+    top: 50px;
+    left: 50px;
+    }
