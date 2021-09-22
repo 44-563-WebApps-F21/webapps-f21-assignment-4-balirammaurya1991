@@ -19,13 +19,38 @@
     font-family: 'Courier New', Courier, monospace;
     color: black;
 }
-.Lord_Windermere{
+.Cecil_Graham{
     color: darkorange;
 }
+.Cecil_Graham:hover{
+    text-shadow: 2px 2px red;
+    border: 1p solid blue;
+
+}
 .Mr-Dumby{color: darkorchid;}
+.Mr-Dumby:hover{
+    text-shadow: 2px 2px red;
+    border: 1p solid blue;
+}
 .Parker{
     color:oldlace;
 }
 .Mr-Cecil-Graham{
     color: palevioletred;
 }
+table, th, td {
+    border: 1px solid black;
+  }
+  td {
+    padding: 5px;
+    margin: 2px 2px 2px 2px;
+    text-align: center;   
+  } 
+  th {
+    padding: 5px;
+    margin: 2px 2px 2px 2px;
+    text-align: center;
+  } 
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
