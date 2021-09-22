@@ -1,0 +1,31 @@
+.speech{
+    font-size:11px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+
+}
+.stage-direction{
+    font-size:11px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: rgb(143, 137, 150);
+}
+.stage-direction:hover{
+    background-color: cadetblue;
+    color: cyan;
+}
+.name{
+    font-size:11px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.Lord_Windermere{
+    color: darkorange;
+}
+.Mr-Dumby{color: darkorchid;}
+.Parker{
+    color:oldlace;
+}
+.Mr-Cecil-Graham{
+    color: palevioletred;
+}
